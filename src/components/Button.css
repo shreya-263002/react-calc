@@ -1,0 +1,32 @@
+.button {
+    background-color: #0070f3;
+     border: none; 
+     color: white; 
+     padding: 15px 32px; 
+     text-align: center; 
+     text-decoration: none;
+      display: inline-block; 
+      font-size: 20px; 
+      font-weight: bold;
+      margin: 4px 2px; 
+      cursor: pointer; 
+      border-radius: 5px; 
+      box-shadow: 0 4px #005bb5; 
+      transition: all 0.3s ease;
+  }
+  
+.button:active {
+    background-color: #005bb5;
+    box-shadow: 0 2px #003f7f; 
+    transform: translateY(2px);
+  }
+
+  .equals {
+    grid-column: 3 / 5;
+    background-color: rgb(243, 61, 29);
+    box-shadow: 0 6px #bc3818;
+  }
+  
+  .equals:hover {
+    background-color: rgb(228, 39, 15);
+  }
